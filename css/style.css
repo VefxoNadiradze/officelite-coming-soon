@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+header {
+  padding: 46px 24px 0 24px;
+  background-image: url(../assets/home/bg-pattern-header.svg);
+  background-size: 458px;
+  background-position: top -150px left 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+nav {
+  text-align: center;
+}
+
+.headerImage-texts {
+  text-align: center;
+}
+
+.headerImage {
+  width: 171px;
+  height: 192px;
+  margin-top: 80px;
+  margin-bottom: 64px;
+}
+
+.title {
+  text-align: center;
+  color: #333950;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.headerTexts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.headerParagraph {
+  color: #747b95;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.startBtn {
+  border-radius: 28px;
+  background-color: #5175ff;
+  border: none;
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.25);
+  padding: 14px 41px;
+  color: #fff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 53px;
+  width: 327px;
+  border-radius: 13px;
+  background-color: #fff;
+  box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.25);
+}
+
+.cardType-price h4 {
+  color: #333950;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.cardType-price h3 {
+  color: #333950;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 8px;
+}
+
+.cardType-price p {
+  color: #333950;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.storage-security {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.storage-security p {
+  color: #747b95;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.tryBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  width: 171px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  background-color: #e4ebff;
+
+  color: #5175ff;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.proCard {
+  background-color: #5175ff;
+  background-image: url(../assets/home/bg-pattern-pricing.svg);
+  background-position: top -380px center;
+  background-repeat: no-repeat;
+}
+
+.proCard .cardType-price h4 {
+  color: #fff;
+}
+
+.proCard .cardType-price h3 {
+  color: #fff;
+}
+
+.proCard p {
+  color: #fff;
+}
+
+.proCard button {
+  background-color: #fff;
+  color: #5175ff;
+}
+
+footer {
+  padding-bottom: 100px;
+  background-color: #25293a;
+  padding-top: 894px;
+  margin-top: -800px;
+  background-image: url(../assets/home/bg-pattern-footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 130px center;
+}
+
+.footerBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.timeContainer > p {
+  color: #fff;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.timeContainer > p span {
+  color: #5175ff;
+}
+
+.timeParent {
+  display: flex;
+  column-gap: 13px;
+  margin-top: 18px;
+  margin-bottom: 40px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 72px;
+  height: 92px;
+  border-radius: 4px;
+  background-color: #333950;
+}
+
+.time h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.time p {
+  color: #fff;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 28px;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 355px) {
+  .card {
+    width: 100%;
+  }
+
+  .timeParent {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 72px 39px 0 39px;
+    margin-bottom: 140px;
+  }
+
+  nav {
+    text-align: left;
+    margin-bottom: 104px;
+  }
+
+  .headerTexts {
+    align-items: flex-start;
+  }
+
+  .headerImage-texts {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headerImage {
+    width: 281px;
+    height: 314px;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    text-align: left;
+    width: 339px;
+  }
+
+  .headerParagraph {
+    text-align: left;
+    width: 345px;
+  }
+
+  .card {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 689px;
+    padding: 48px 68px;
+  }
+
+  .cardType-price p {
+    text-align: left;
+  }
+
+  footer {
+    margin-top: -530px;
+    padding-top: 598px;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  header {
+    max-width: 780px;
+    margin: 0 auto 140px auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    padding: 81px 165px 0 165px;
+    max-width: 100%;
+  }
+
+  .title {
+    width: 540px;
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .headerParagraph {
+    width: 540px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .headerImage {
+    width: 475px;
+    height: 531px;
+  }
+
+  .startBtn:hover {
+    cursor: pointer;
+    background-color: #829cff;
+  }
+
+  .tryBtn:hover {
+    cursor: pointer;
+    background-color: #c1cfff;
+  }
+
+  .proCard .tryBtn:hover {
+    background-color: #fff;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .headerImage {
+    width: 475px;
+    height: 531px;
+    margin-bottom: 184px;
+  }
+
+  main {
+    flex-direction: row;
+    padding: 0 165px;
+    column-gap: 30px;
+    top: -150px;
+  }
+
+  .card {
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .cardType-price p {
+    text-align: center;
+  }
+  .tryBtn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    padding: 336px 165px 91px 165px;
+    margin-top: -438px;
+    background-position: top -300px left -400px;
+  }
+
+  .footerBottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .timeParent {
+    margin: 0px;
+  }
+
+  .timeContainer > p {
+    text-align: left;
+  }
+
+  .time {
+    width: 100px;
+    height: 128px;
+  }
+
+  .time h3 {
+    font-size: 56px;
+    line-height: 48px;
+  }
+
+  .time p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
